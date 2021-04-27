@@ -9,6 +9,12 @@ A movie nominations web-app.
 - Run `npm i` or `yarn`
 - Run `npm start` or `yarn start`
 
+# Deploy
+
+- install vercel-cli (`npm i -g vercel`)
+- cd into the root of the project
+- Hit `vercel` and specify the project name, runtime etc.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
