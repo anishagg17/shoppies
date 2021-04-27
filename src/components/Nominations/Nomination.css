@@ -1,0 +1,32 @@
+.year {
+    color: #ABABAB;
+    padding-top: 2%;
+    padding-left: 9%;
+}
+
+.nomination-card {
+    padding: 2% 4% 0 4%;
+    margin-top: 0%;
+}
+
+.nomination-card h2 {
+    font-size: 1.4rem;
+    line-height: 0;
+    white-space: nowrap;
+}
+
+.nomination-card:hover {
+    cursor: pointer;
+}
+
+.nomination-card:hover > svg{
+    fill: red;
+}
+
+.nomination-card svg {
+    width: 5%;
+    margin-top: 5%;
+    height: auto;
+    float: left;
+    margin-right: 4%;
+}

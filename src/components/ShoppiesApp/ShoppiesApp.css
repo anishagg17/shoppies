@@ -1,0 +1,72 @@
+.results-and-noms-section {
+    margin-top: 1%;
+}
+
+.results {
+    float: left;
+    width: 60%;
+    margin-right: 5%;
+}
+
+.movie-cards {
+    height: 58vh;
+    overflow: auto;
+    scroll-padding: 0px 0px 0px 0px;
+}
+
+.nominations {
+    float: left;
+    width: 35%;
+}
+
+.nominated-movies-container {
+    height: 48vh;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.nominated-movies {
+    max-width: 95%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+h1 {
+    margin-left: calc(4%);
+    padding-top: calc(1%);
+}
+
+.loading {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    padding-top: 25%;
+    font-weight: 500;
+    color: #333333;
+}
+
+.loading:after {
+    overflow: hidden;
+    vertical-align: bottom;
+    -webkit-animation: ellipsis steps(4, end) 500ms infinite;
+    animation: ellipsis steps(4, end) 500ms infinite;
+    content: "\2026";
+    width: 0px;
+}
+
+@keyframes ellipsis {
+    to {
+        width: 1.25em;
+    }
+}
+
+@-webkit-keyframes ellipsis {
+    to {
+        width: 1.25em;
+    }
+}
