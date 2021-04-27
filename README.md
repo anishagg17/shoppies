@@ -1,4 +1,13 @@
-# Getting Started with Create React App
+# Shoppies: Movie awards for entrepreneurs
+
+A movie nominations web-app.
+
+# Run Locally
+
+- git clone git@github.com:anishagg17/shoppies.git
+- cd shoppies
+- Run npm i or yarn
+- Run npm start or yarn start
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
